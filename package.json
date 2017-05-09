@@ -1,0 +1,22 @@
+{
+  "name": "postgres_example",
+  "version": "1.0.0",
+  "description": "Server para consultar una base de datos postgres",
+  "author": "dap465",
+  "repository": "dap465/prueba_postgres",
+  "bugs": {
+    "url": "https://github.com/dap465/prueba_postgres/issues"
+  },
+  "homepage": "https://github.com/dap465/prueba_postgres",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+
+  "dependencies": {
+    "express":"4.15.1",
+    "supervisor": "0.11.0",
+    "pg":"6.1.0"
+  }
+}
